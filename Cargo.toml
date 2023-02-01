@@ -1,15 +1,15 @@
 [package]
-name = "move-docgen"
+name = "move-docs"
 version = "0.1.0"
 authors = ["Diem Association <opensource@diem.com>"]
-publish = false
+publish = true
 edition = "2021"
 license = "Apache-2.0"
 
 [dependencies]
 # diem dependencies
-move-compiler = { path = "../../move-compiler" }
-move-model = { path = "../../move-model" }
+# move-compiler = { path = "../../move-compiler" }
+# move-model = { path = "../../move-model" }
 
 # external dependencies
 codespan = "0.11.1"
